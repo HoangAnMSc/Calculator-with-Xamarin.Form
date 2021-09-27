@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH1.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Entry x:Name="txtRes" TextColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="Black" FontSize="28"/>
+
+        <Button x:Name="cmdAC" Text="AC" Grid.Row="1" Grid.Column="0" TextColor="Black" BackgroundColor="Silver" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+        <Button x:Name="cmddau" Text="+/-" Grid.Row="1" Grid.Column="1" TextColor="Black" BackgroundColor="Silver" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+        <Button x:Name="cmdphantram" Text="%" Grid.Row="1" Grid.Column="2" TextColor="Black" BackgroundColor="Silver" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+        <Button x:Name="cmdphepchia" Text="÷" Grid.Row="1" Grid.Column="3" TextColor="White" BackgroundColor="#FF9900" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+
+        <Button x:Name="cmdso7" Text="7" Grid.Row="2" Grid.Column="0" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso8" Text="8" Grid.Row="2" Grid.Column="1" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso9" Text="9" Grid.Row="2" Grid.Column="2" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdphepnhan" Text="×" Grid.Row="2" Grid.Column="3" TextColor="White" BackgroundColor="#FF9900" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+
+        <Button x:Name="cmdso4" Text="4" Grid.Row="3" Grid.Column="0" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso5" Text="5" Grid.Row="3" Grid.Column="1" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso6" Text="6" Grid.Row="3" Grid.Column="2" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdpheptru" Text="-" Grid.Row="3" Grid.Column="3" TextColor="White" BackgroundColor="#FF9900" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+
+        <Button x:Name="cmdso1" Text="1" Grid.Row="4" Grid.Column="0" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso2" Text="2" Grid.Row="4" Grid.Column="1" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdso3" Text="3" Grid.Row="4" Grid.Column="2" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdphepcong" Text="+" Grid.Row="4" Grid.Column="3" TextColor="White" BackgroundColor="#FF9900" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+
+        <Button x:Name="cmdso0" Text="0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdsophay" Text="," Grid.Row="5" Grid.Column="2" TextColor="White" BackgroundColor="#444444" FontSize="Large" Clicked="cmdso7_Clicked"/>
+        <Button x:Name="cmdphepbang" Text="=" Grid.Row="5" Grid.Column="3" TextColor="White" BackgroundColor="#FF9900" FontSize="Large" Clicked="cmdphepchia_Clicked"/>
+    </Grid>
+
+</ContentPage>
